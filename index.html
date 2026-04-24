@@ -64,7 +64,7 @@ async function identify() {
   const response = await fetch("https://plant-backend-avof.onrender.com/identify", {
     method: "POST",
     body: form
-  });
+  });   
 
   const data = await response.json();
 
